@@ -1,8 +1,1 @@
-- name: Deploy Server maven Artifact
-  hosts: localhost
-  become: no  # Optional: if your tasks need root access
-  tasks:
-    - name: Example task
-      path: /opt/deployment
-      state: directory
-        mode: '0755'
+
